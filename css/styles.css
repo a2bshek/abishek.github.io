@@ -46,7 +46,7 @@ ul {
   padding-left: 10px;
 }
 
-ul li::before {
+.bulltes li::before {
   content: "🚀";
   margin-right: 10px;
 }
@@ -132,4 +132,13 @@ footer {
 .contact a {
   color: #74b9ff;
   text-decoration: none;
+}
+
+.default li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.default li::before {
+  content: "✔️";
+  margin-right: 10px;
 }
